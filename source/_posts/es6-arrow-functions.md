@@ -1,6 +1,8 @@
-title: es6-arrow-functions
+title: ES6 Arrow functions
 date: 2015-09-21 22:14:24
-tags: javascript, es6
+tags:
+  - javascript
+  - es6
 ---
 
 Last night I was reading this post: [ES6 arrow functions, syntax and lexical scoping](http://toddmotto.com/es6-arrow-functions-syntaxes-and-lexical-scoping/) and going through the comments I saw this question:
