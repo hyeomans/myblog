@@ -74,10 +74,6 @@ sidebar:
         #     title: global.google_plus
         #     url: https://plus.google.com/
         #     icon: google-plus
-        linked_in:
-            title: global.linked_in
-            url: https://www.linkedin.com/in/hectoryeomans
-            icon: linkedin
         # mail:
         #     title: global.mail
         #     url: mailto:
