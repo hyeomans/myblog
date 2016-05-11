@@ -23,3 +23,4 @@ tags:
   - [Hanselminutes](http://www.hanselminutes.com/) - RSS direct [link](http://feeds.podtrac.com/P-4IIgRqsKI_)
   - [Entreprogrammers](http://entreprogrammers.com/) - RSS direct [link](http://entreprogrammers.libsyn.com/rss)
 
+You're always welcome to add [more to the list](https://github.com/hyeomans/myblog/blob/master/source/_posts/podcasts-to-listen.md)
