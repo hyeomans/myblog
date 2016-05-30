@@ -54,7 +54,7 @@ sudo apt-get update -y -qq > /dev/null
 sudo apt-get upgrade -y -qq > /dev/null
 
 # Install necessary libraries for guest additions and Vagrant NFS Share
-sudo apt-get -y -q install linux-headers-$(uname -r) build-essential dkms nfs-common wget git xvfb vim gawk libreadline6-dev zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 autoconf libgdbm-dev libncurses5-dev automake libtool bison pkg-config libffi-dev libxml2-dev libxslt-dev libxml2 elixir
+sudo apt-get -y -q install linux-headers-$(uname -r) build-essential dkms nfs-common wget git xvfb vim gawk libreadline6-dev zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 autoconf libgdbm-dev libncurses5-dev automake libtool bison pkg-config libffi-dev libxml2-dev libxslt-dev libxml2 erlang-dev elixir 
 ```
 
 Finally we modify our Vagrant file, I removed all the extra comments:
@@ -66,7 +66,7 @@ Vagrant.configure(2) do |config|
   config.vm.synced_folder "src/", "/home/vagrant/src"
   config.vm.network :private_network, ip: "10.0.15.10"
   config.vm.provider "virtualbox" do |vb|
-    vb.memory = "256"
+    vb.memory = "1024"
   end
   config.vm.provision :shell, path: "init/bootstrap.sh"
 end
