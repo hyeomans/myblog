@@ -16,12 +16,11 @@ This application will run on Ubuntu 14.04 using Vagrant.
 I'm using iTerminal on macOS
 
 ## Index
-- Setting up Vagrant box
-- Setting up Postgresql
-- Creating a database and a table.
-- Creating .Net core console application.
-- Adding Dapper and Npgsql
-- Connecting to Database and persisting data.
+- [Setting up Vagrant box.](#Setting_up_Vagrant_box)
+- [Setting up Postgresql.](#Setting_up_Postgresql)
+- [Creating .Net core console application.](#Creating_-Net_core_console_application-)
+- [Adding Dapper and Npgsql](#Adding_Dapper_and_Npgsql)
+- [Connecting to Database and persisting data.](#Connecting_to_Database_and_persisting_data-)
 
 
 ## Setting up Vagrant box
