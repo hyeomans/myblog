@@ -34,7 +34,7 @@ Create a new directory for our project:
 
 Use the following Vagrantfile. This Vagrant file will provision the box with 
 `Postgresql` and `dotnet-dev-1.0.0-preview2-003131`. I got the installation steps for DotNet Core from
-(Microsoft Net Core Website)[https://www.microsoft.com/net/core#ubuntu]
+[Microsoft Net Core Website](https://www.microsoft.com/net/core#ubuntu)
 
 ```
 ## Vagrantfile

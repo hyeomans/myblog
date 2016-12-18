@@ -1,6 +1,9 @@
 title: 'Elixir in Vagrant: Httpoison, memory and ssl_verify_hostname'
 date: 2016-05-30 10:19:04
 tags:
+  - elixir
+  - elixir-lang
+  - vagrant
 ---
 
 If you tried to install `httpoison` and when you run `mix deps.compile` or `mix` you get:

@@ -54,7 +54,7 @@ sudo apt-get update -y -qq > /dev/null
 sudo apt-get upgrade -y -qq > /dev/null
 
 # Install necessary libraries for guest additions and Vagrant NFS Share
-sudo apt-get -y -q install linux-headers-$(uname -r) build-essential dkms nfs-common wget git xvfb vim gawk libreadline6-dev zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 autoconf libgdbm-dev libncurses5-dev automake libtool bison pkg-config libffi-dev libxml2-dev libxslt-dev libxml2 erlang-dev elixir 
+sudo apt-get -y -q install linux-headers-$(uname -r) build-essential dkms nfs-common wget git xvfb vim gawk libreadline6-dev zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 autoconf libgdbm-dev libncurses5-dev automake libtool bison pkg-config libffi-dev libxml2-dev libxslt-dev libxml2 erlang-dev erlang-common-test erlang-tools erlang-common-test esl-erlang elixir 
 ```
 
 Finally we modify our Vagrant file, I removed all the extra comments:
